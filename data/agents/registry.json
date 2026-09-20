@@ -1,0 +1,105 @@
+{
+  "$comment": "Agent OS registry. Source of truth for which agents exist, where their config/skills live, and how they reach the palace and each other. Verified 2026-09-20. Governed by Enterprise_Workspace/02_Agents_and_Systems/Agent_Configurations/AGENT_POLICY.md (local-first, no unprompted mutation).",
+  "version": 1,
+  "palace": {
+    "repo": "C:\\Users\\jayla\\memory-palace-with-brain",
+    "project_index": "data/projects/index.json",
+    "human_map": "PROJECTS.md",
+    "residue_note": "brain/KNOWN_RESIDUE.md",
+    "recall_store": "C:\\Users\\jayla\\.basic-memory"
+  },
+  "a2a": {
+    "protocol": "A2A v1.0 (JSON-RPC binding)",
+    "hub": "hermes",
+    "hub_implementation": "Enterprise_Workspace/hermes-agent/plugins/platforms/a2a",
+    "default_bind": "127.0.0.1:9900",
+    "status": "staged-not-enabled",
+    "note": "Only Hermes implements A2A today. Other agents reach the mesh through Hermes (a2a_call / a2a_orchestrate) or the palace mailbox convention in brain/AGENT_OS.md. Nothing below claims a non-Hermes agent serves an Agent Card."
+  },
+  "agents": [
+    {
+      "id": "hermes",
+      "role": "coordination heartbeat + A2A hub",
+      "sanctioned": true,
+      "runtime": "WSL2 kali-linux, systemd user service hermes-gateway",
+      "config": "~/.hermes/config.yaml (inside WSL)",
+      "a2a": { "serves_card": false, "would_serve": "http://127.0.0.1:9900/.well-known/agent-card.json", "client_tools": ["a2a_discover", "a2a_call", "a2a_list", "a2a_history", "a2a_orchestrate"] },
+      "palace_link": "add palace as a peer/skill after enabling A2A; see brain/a2a/hermes-config.snippet.yaml",
+      "status": "gateway active; a2a platform not enabled"
+    },
+    {
+      "id": "claude-code",
+      "role": "working brain (this session)",
+      "sanctioned": true,
+      "config": "C:\\Users\\jayla\\.claude\\settings.json",
+      "palace_skill": ".claude/skills/project-map/SKILL.md",
+      "a2a": { "serves_card": false, "reaches_mesh_via": "hermes + mailbox" },
+      "status": "palace skill present"
+    },
+    {
+      "id": "codex",
+      "role": "working brain (opencode / Codex CLI)",
+      "sanctioned": true,
+      "config": "C:\\Users\\jayla\\.codex\\config.toml",
+      "palace_skill": ".agents/skills/project-map/SKILL.md",
+      "a2a": { "serves_card": false, "reaches_mesh_via": "hermes + mailbox" },
+      "status": "palace skill present; model routed through local Ollama"
+    },
+    {
+      "id": "gemini-antigravity",
+      "role": "Gemini CLI / Antigravity",
+      "sanctioned": true,
+      "config": "C:\\Users\\jayla\\.gemini\\settings.json",
+      "context_file": "C:\\Users\\jayla\\.gemini\\GEMINI.md",
+      "palace_skill": null,
+      "a2a": { "serves_card": false, "reaches_mesh_via": "mailbox" },
+      "status": "needs palace pointer in GEMINI.md (not applied)"
+    },
+    {
+      "id": "copilot",
+      "role": "GitHub Copilot CLI",
+      "sanctioned": true,
+      "config": "C:\\Users\\jayla\\.copilot\\config.json, mcp-config.json",
+      "palace_skill": null,
+      "a2a": { "serves_card": false, "reaches_mesh_via": "mailbox" },
+      "status": "SECURITY: mcp-config.json holds a plaintext GitHub PAT. Rotate and move to env var before further wiring."
+    },
+    {
+      "id": "jules",
+      "role": "Google coding agent",
+      "sanctioned": true,
+      "config": "C:\\Users\\jayla\\agents-cli\\.Jules",
+      "a2a": { "serves_card": false, "reaches_mesh_via": "mailbox" },
+      "status": "present under agents-cli; not wired"
+    },
+    {
+      "id": "cagent",
+      "role": "Docker cagent",
+      "sanctioned": false,
+      "config": "C:\\Users\\jayla\\.cagent",
+      "status": "outside AGENT_POLICY section 5 sanctioned surface; inventory only"
+    },
+    {
+      "id": "cline",
+      "role": "Cline",
+      "sanctioned": false,
+      "config": "C:\\Users\\jayla\\.cline",
+      "status": "outside AGENT_POLICY section 5 sanctioned surface; inventory only"
+    },
+    {
+      "id": "perplexity",
+      "role": "Perplexity CLI",
+      "sanctioned": false,
+      "config": "C:\\Users\\jayla\\.pplx",
+      "status": "outside AGENT_POLICY section 5 sanctioned surface; inventory only"
+    },
+    {
+      "id": "master-recovery-agents",
+      "role": "wallet/seed recovery orchestration",
+      "sanctioned": false,
+      "enabled": false,
+      "config": "C:\\Users\\jayla\\Enterprise_Workspace\\gh_agents_rollout\\MasterRecoveryAgents",
+      "status": "PAUSED per OPERATIONS_PLAN 2026-09-15. Excluded from all wiring. Re-enablement needs explicit human sign-off."
+    }
+  ]
+}

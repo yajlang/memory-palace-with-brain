@@ -1,0 +1,127 @@
+{
+  "generated": "2026-09-18T00:00:00Z",
+  "machine": "ASUS TUF Gaming F16 FX607JV",
+  "os": "Windows 11 Home 10.0.26200",
+  "user": "jayla",
+  "accounts": {
+    "github": {
+      "yajlang": {
+        "role": "primary",
+        "repos": [
+          "memory-palace-with-brain", "Gemini", "code-cli", "nginx-proxy-manager",
+          "fence-estimate-tool", "Payroll-For-The-People", "Culina", "BuildersGRPH",
+          "neurite-overseer", "sdupes", "ParlayVisionAi"
+        ]
+      },
+      "conor-ops": {
+        "role": "agent-ops",
+        "repos": [
+          "Agent-AutoAccept", "agent-zero-orchestra", "aider", "agentql-mcp",
+          "antigravity-demo", "deepseek-cli-agent", "Numera2", "etcher",
+          "fence-estimate-tool", "fictional-invention", "gk-cli-agents",
+          "Mobile-app-landingpage-temple", "omarchy-agents", "tmux", "OmniDev",
+          "paperclip-autonomous-agents", "POC-Engine", "win32", "renewal-loop",
+          "tinyfish-web-agent-integrations", "Website-Builder", "winget-cli",
+          "GenAIMindMapFlowBuilder", "OpenPart"
+        ]
+      },
+      "bettercutslawncare-ui": {
+        "role": "ui",
+        "repos": ["iot-adk-addonkit-conor-gold"]
+      },
+      "Autonomous-Agentic-Workflows": {
+        "role": "upstream-org-seen-in-recovered-clones",
+        "repos": []
+      }
+    }
+  },
+  "projects": [
+    {
+      "name": "memory-palace-with-brain",
+      "category": "active",
+      "accounts": ["yajlang"],
+      "upstream": "SofiaBargues/memory-palace",
+      "locations": [
+        "C:\\Users\\jayla\\memory-palace-with-brain",
+        "/home/jayla/memory-palace-with-brain"
+      ],
+      "stack": "Next.js 14.2.13, OpenAI 6.44.0, mongoose 8.7.0, Cloudinary, Resend, PostHog",
+      "note": "THIS repo — the map + brain living surface"
+    },
+    { "name": "Gemini", "category": "active", "accounts": ["yajlang"],
+      "locations": ["PROJECT_ARCHIVE\\ConsolidatedDevelopment\\Gemini", "FoundRepos\\Gemini"] },
+    { "name": "code-cli", "category": "active", "accounts": ["yajlang"],
+      "locations": ["FoundRepos"] },
+    { "name": "nginx-proxy-manager", "category": "active", "accounts": ["yajlang"] },
+    { "name": "fence-estimate-tool", "category": "active", "accounts": ["yajlang", "conor-ops"] },
+    { "name": "Payroll-For-The-People", "category": "active", "accounts": ["yajlang"] },
+    { "name": "Culina", "category": "active", "accounts": ["yajlang"],
+      "locations": ["PROJECT_ARCHIVE\\01_Code_Repos\\culina", "FoundRepos"] },
+    { "name": "BuildersGRPH", "category": "active", "accounts": ["yajlang"] },
+    { "name": "neurite-overseer", "category": "active", "accounts": ["yajlang"],
+      "locations": ["PROJECT_ARCHIVE\\01_Code_Repos\\neurite-overseer"] },
+    { "name": "sdupes", "category": "active", "accounts": ["yajlang"],
+      "locations": ["C:\\Users\\Conor Gomes\\sdupes-mirror"] },
+    { "name": "ParlayVisionAi", "category": "active", "accounts": ["yajlang"],
+      "locations": ["PROJECT_ARCHIVE\\01_Code_Repos\\parlayvisionai"] },
+    { "name": "Numera2", "category": "active", "accounts": ["conor-ops"],
+      "locations": ["PROJECT_ARCHIVE\\01_Code_Repos\\Numera2", "PROJECT_ARCHIVE\\ConsolidatedDevelopment\\Numera2", "C:\\Users\\bette\\Numera2", "FoundRepos"],
+      "note": "signature project; multiple mirrors incl. functions/ dir" },
+    { "name": "antigravity-sdk-python", "category": "recovered",
+      "locations": ["PROJECT_ARCHIVE\\01_Code_Repos", "FoundRepos\\antigravity-sdk-python-73de8b89"] },
+    { "name": "vertex-enterprise-search", "category": "recovered",
+      "locations": ["PROJECT_ARCHIVE\\ConsolidatedDevelopment"] },
+    { "name": "Cline", "category": "recovered",
+      "locations": ["PROJECT_ARCHIVE\\ConsolidatedDevelopment\\Cline", "C:\\Users\\Conor Gomes\\Cline"] },
+    { "name": "MasterRecovery2", "category": "recovery",
+      "locations": ["C:\\Users\\Conor Gomes\\MasterRecovery2", "FoundRepos", "PROJECT_ARCHIVE\\ConsolidatedDevelopment"] },
+    { "name": "MasterRecovery3", "category": "recovery",
+      "locations": ["C:\\Users\\Conor Gomes\\MasterRecovery3", "MasterRecovery3-conor", "OneDrive\\MasterRecovery3_StateSync", "FoundRepos (timestamped clones)"] },
+    { "name": "MasterRecoveryAgents", "category": "recovery",
+      "locations": ["Enterprise_Workspace\\03_Development_and_Code"] },
+    { "name": "hermes-agent", "category": "agent",
+      "locations": ["Enterprise_Workspace\\03_Development_and_Code"] },
+    { "name": "fwd-thinker", "category": "agent",
+      "locations": ["Enterprise_Workspace\\03_Development_and_Code"] },
+    { "name": "BizBalance", "category": "recovered",
+      "locations": ["C:\\Users\\bette\\BizBalance", "FoundRepos"] },
+    { "name": "FlowState-Finance", "category": "recovered",
+      "locations": ["C:\\Users\\bette\\FlowState-Finance", "FoundRepos"] },
+    { "name": "numera", "category": "recovered",
+      "locations": ["C:\\Users\\bette\\numera", "FoundRepos"] },
+    { "name": "local-recovery", "category": "recovery",
+      "locations": ["C:\\Users\\Conor Gomes", "FoundRepos", "local-recovery-enterprise-mirror"] },
+    { "name": "openvpn-gui", "category": "recovered",
+      "locations": ["C:\\Users\\Conor Gomes\\openvpn-gui", "FoundRepos"] },
+    { "name": "iot-adk-addonkit-conor-gold", "category": "active", "accounts": ["bettercutslawncare-ui"] },
+    { "name": "sites-plugin", "category": "ad-hoc",
+      "locations": ["C:\\Users\\jayla\\Documents\\Codex\\2026-09-17"],
+      "remote": "git.chatgpt-team.site" }
+  ],
+  "archive_roots": {
+    "C:\\Users\\jayla\\PROJECT_ARCHIVE": [
+      "00_INDEX", "01_Code_Repos", "02_AI_Chats_Exports", "03_Documents",
+      "04_Cloud_OneDrive_Accounts", "05_Projects_Numera2", "06_Misc_Uncategorized",
+      "07_IP_Authorship_Evidence", "ConsolidatedDevelopment", "Pixel_Backup"
+    ],
+    "C:\\Users\\jayla\\Consolidated": ["configs", "dev", "logs", "recovery", "tools", "vault", "workspaces"],
+    "C:\\Users\\jayla\\Enterprise_Workspace": [
+      "01_Governance_and_Identity", "02_Agents_and_Systems", "03_Development_and_Code",
+      "04_IT_and_Assets", "05_Media_and_Design", "06_Inbox_and_Unsorted"
+    ]
+  },
+  "profiles": {
+    "jayla": { "home": "C:\\Users\\jayla", "wsl": ["Ubuntu (26.04)", "PCMClawUbuntu (24.04, root-only)"] },
+    "Conor Gomes": { "home": "C:\\Users\\Conor Gomes", "note": "MasterRecovery lineage + mirrors" },
+    "bette": { "home": "C:\\Users\\bette", "note": "finance projects" }
+  },
+  "backups": [
+    "OneDrive\\PRE_WIPE_BACKUP_20260829_123339",
+    "OneDrive\\MasterRecovery3_StateSync",
+    "OneDrive\\OneDrive_conorg08",
+    "OneDrive\\OneDrive_conorg09",
+    "OneDrive\\Personal Vault-Homelab",
+    "Consolidated\\vault\\SecureVault_*",
+    "CrossDevice\\Pixel 9 Pro Fold", "CrossDevice\\Pixel 9 Pro Fold (1)"
+  ]
+}

@@ -1,0 +1,31 @@
+# STAGED, NOT APPLIED. Merge into ~/.hermes/config.yaml (inside WSL kali-linux) only after human approval.
+# Per AGENT_POLICY.md: report the exact command, ask, then run.
+#
+# Apply steps (each needs your OK):
+#   1. wsl -d kali-linux -- bash -lc 'cp ~/.hermes/config.yaml ~/.hermes/config.yaml.bak-$(date +%Y%m%d)'
+#   2. merge the block below into ~/.hermes/config.yaml
+#   3. wsl -d kali-linux -- bash -lc 'systemctl --user restart hermes-gateway'
+#   4. verify: curl -s http://127.0.0.1:9900/.well-known/agent-card.json
+#
+# With NO token set, the plugin binds 127.0.0.1 only. Leave A2A_HOST unset unless a token AND a reason exist.
+
+gateway:
+  platforms:
+    a2a:
+      enabled: true
+      extra:
+        port: 9900
+
+# Outbound peers. Empty until a second A2A-speaking agent actually exists.
+# Do not invent entries: a2a_call to a URL that serves no card just fails.
+a2a_agents: {}
+#  example-peer:
+#    url: "http://127.0.0.1:9999"
+#    auth: { type: bearer, token: "${A2A_PEER_EXAMPLE_TOKEN}"   }   # keep secrets in env, never in this repo
+#    timeout: 120
+#    capabilities: [research]
+
+# Optional env (set in the Hermes service environment, not here):
+#   A2A_AGENT_NAME=hermes-palace
+#   A2A_TRUSTED_PEERS=<comma list of authenticated identities>
+#   A2A_MAX_PINGPONG_TURNS=5
