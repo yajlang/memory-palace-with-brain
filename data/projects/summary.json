@@ -1,0 +1,126 @@
+﻿{
+    "generated":  "2026-09-20T17:52:44.5896353Z",
+    "roots":  [
+                  "C:\\Users\\jayla\\PROJECT_ARCHIVE",
+                  "C:\\Users\\jayla\\Enterprise_Workspace",
+                  "C:\\Users\\jayla\\Consolidated"
+              ],
+    "total_git_dirs":  105,
+    "unique_names":  75,
+    "duplicates":  [
+                       {
+                           "name":  "btcrecover",
+                           "count":  9,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\D (1)\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\MasterRecovery3\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\MasterRecovery3.backup.20260302-194852\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\RECOVERY\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\RECOVERY (2)\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\RECOVERY (3)\\btcrecover",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\Recovery Scripts\\btcrecover"
+                                     ]
+                       },
+                       {
+                           "name":  "trezor-firmware",
+                           "count":  5,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\trezor-firmware",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\trezor-firmware",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\trezor-firmware_20260731_001235\\trezor-firmware",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\trezor-firmware_20260731_001258\\trezor-firmware",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\vertex-enterprise-search\\trezor-firmware"
+                                     ]
+                       },
+                       {
+                           "name":  "Numera2",
+                           "count":  5,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\Numera2",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Numera2",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Numera2_20260731_001234\\Numera2",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Numera2_20260731_001235\\Numera2",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Numera2_20260731_001258\\Numera2"
+                                     ]
+                       },
+                       {
+                           "name":  "MasterRecovery3",
+                           "count":  4,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\MasterRecovery3",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3_20260731_001235\\MasterRecovery3",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\MasterRecovery3_20260730_233021\\MasterRecovery3"
+                                     ]
+                       },
+                       {
+                           "name":  "rtl8821au-5.6.4",
+                           "count":  3,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8821au-5.6.4",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8821au-5.6.4_20260731_001235\\rtl8821au-5.6.4",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8821au-5.6.4_20260731_001258\\rtl8821au-5.6.4"
+                                     ]
+                       },
+                       {
+                           "name":  "rtl88x2bu-5.6.1",
+                           "count":  3,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl88x2bu-5.6.1",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl88x2bu-5.6.1_20260731_001235\\rtl88x2bu-5.6.1",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl88x2bu-5.6.1_20260731_001258\\rtl88x2bu-5.6.1"
+                                     ]
+                       },
+                       {
+                           "name":  "rtl8812au-5.6.4.2~20201019",
+                           "count":  3,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8812au-5.6.4.2~20201019",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8812au-5.6.4.2~20201019_20260731_001235\\rtl8812au-5.6.4.2~20201019",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\rtl8812au-5.6.4.2~20201019_20260731_001258\\rtl8812au-5.6.4.2~20201019"
+                                     ]
+                       },
+                       {
+                           "name":  "FenceEstimatorTool",
+                           "count":  2,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\numera\\FenceEstimatorTool",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\numera_20260731_001235\\FenceEstimatorTool"
+                                     ]
+                       },
+                       {
+                           "name":  "OrChat",
+                           "count":  2,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\OrChat",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\archive\\OrChat"
+                                     ]
+                       },
+                       {
+                           "name":  "claude-plugins-official",
+                           "count":  2,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery2\\claude_tools\\marketplaces\\claude-plugins-official",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery3\\.claude\\plugins\\marketplaces\\claude-plugins-official"
+                                     ]
+                       },
+                       {
+                           "name":  "Playground",
+                           "count":  2,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Playground",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\Playground_20260731_001234\\Playground"
+                                     ]
+                       },
+                       {
+                           "name":  "MasterRecovery2",
+                           "count":  2,
+                           "paths":  [
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\MasterRecovery2",
+                                         "C:\\Users\\jayla\\PROJECT_ARCHIVE\\ConsolidatedDevelopment\\FoundRepos\\MasterRecovery2"
+                                     ]
+                       }
+                   ]
+}
