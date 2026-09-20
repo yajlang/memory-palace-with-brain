@@ -1,7 +1,7 @@
 # Memory Palace — Project Map
 
 > Generated 2026-09-18 from the system inventory of `ASUS TUF Gaming F16 FX607JV` (Windows 11, user `jayla`).
-> Machine-readable copy: `data/projects/index.json`. Regenerate locally with `brain/sync-projects.ps1`.
+> Machine-readable copy: `data/projects/index.json`. Regenerate locally with `brain/sync-projects.ps1`. Duplicate scan: `data/projects/summary.json` (regenerate with `brain/scan-projects.ps1`).
 
 This is the canonical index of every project, repo, archive dev area, and cloud/device context that belongs to the jayla / conor ecosystem. Use it as the entry point for any agent or tool that needs to know "where does project X live and who owns it upstream".
 
